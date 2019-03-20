@@ -1,0 +1,110 @@
+# Ignore everything
+/*
+
+# Besides:
+!.gitignore
+!Games
+!Playground
+!README.md
+
+
+
+
+# Ignore everything in Games folder
+Games/*
+
+# Besides:
+!Multiplayer
+!Singleplayer
+
+
+# Ignore everything in Multiplayer folder
+Games/Multiplayer/*
+
+# Besides:
+!Chess.md
+!DotsAndBoxes.md
+!Hangman.md
+!TicTacToe.md
+
+
+# Ignore everything in Games/Singleplayer folder
+Games/Singleplayer/*
+
+# Besides:
+!Maze
+!Sudoku
+!WordChains
+
+
+# Ignore everything in Games/Singleplayer/Game folder
+Games/Singleplayer/*/*
+
+# Besides:
+!Easy
+!Medium
+!Hard
+!Expert
+!Evil
+
+
+# Ignore everything in Singleplayer/Game/Difficulty folder
+Games/Singleplayer/*/*/*
+
+# Besides:
+!Level *.md
+
+
+
+
+# Ignore everything in Playground folder
+Playground/*
+
+# Besides:
+!Multiplayer
+!Singleplayer
+
+
+# Ignore everything in Playground/Multiplayer folder
+Playground/Multiplayer/*
+
+# Besides:
+!Chess
+!DotsAndBoxes
+!Hangman
+!TicTacToe
+!Counter
+
+
+# Ignore everything in Playground/Multiplayer/Game/Match folder
+Playground/Multiplayer/*/*/*
+
+# Besides:
+!Game *.md
+
+
+# Ignore everything in Playground/Singleplayer folder
+Playground/Singleplayer/*
+
+# Besides:
+!Maze
+!Sudoku
+!WordChains
+
+
+# Ignore everything in Playground/Singleplayer/Game folder
+Playground/Singleplayer/*/*
+
+# Besides:
+!Easy
+!Medium
+!Hard
+!Expert
+!Evil
+
+
+# Ignore everything in Playground/Game/Difficulty folder
+Playground/Singleplayer/*/*/*
+
+# Besides:
+!Level *.md
