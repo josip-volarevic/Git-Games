@@ -5,16 +5,6 @@ Play multiplayer games like TicTacToe and Chess with your friends or solve singl
 
 ## Git-Started
 
-**if** (isNewToGit == True) {
-
-    checkOut ([Git-Started walkthrough](https://volki.gitbook.io/git-started/));
+If you are new to git check out: ([Git-Started walkthrough](https://volki.gitbook.io/git-started/)).
   
-} **else** {
-
-    fork(gitGames);
-  
-    clone(yourCopyOfGitGames);
-  
-    follow([guidelines](https://volki.gitbook.io/git-started/play));
-    
-}
+Else: fork(gitGames), clone(yourCopyOfGitGames), and follow([guidelines](https://volki.gitbook.io/git-started/play))
